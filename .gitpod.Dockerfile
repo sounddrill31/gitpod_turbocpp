@@ -16,5 +16,5 @@ RUN apt-get update && apt-get install -yq \
 RUN useradd -l -u 33333 -G sudo -md /home/gitpod -s /bin/bash -p gitpod gitpod
 
 USER gitpod
-RUN wget https://raw.githubusercontent.com/sounddrill31/gitpod_turbocpp/main/script.sh
+RUN curl https://raw.githubusercontent.com/sounddrill31/gitpod_turbocpp/main/script.sh
 RUN bash script.sh
