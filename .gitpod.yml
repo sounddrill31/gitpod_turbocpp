@@ -1,6 +1,6 @@
-image:
-  file: .gitpod.Dockerfile
+
 tasks:
   command: |
     wget https://raw.githubusercontent.com/sounddrill31/gitpod_turbocpp/main/script.sh && bash script.sh
-  
+image:
+  file: .gitpod.Dockerfile
